@@ -1,0 +1,25 @@
+    <!-- Gallery -->
+    <section class="gallery-section-two">
+        <div class="auto-container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6" *ngFor="let image of images">
+              <div class="gallery-block gallery-overlay">
+                <div class="gallery-block_image">
+                  <img [src]="image.src" [alt]="image.alt">
+                </div>
+                <div class="overlay-box">
+                  <div class="overlay-inner">
+                    <div class="content">
+                      <a [href]="image.src" class="lightbox-image link" data-fancybox="gallery">
+                        <span class="icon fal fa-plus"></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </section>
+

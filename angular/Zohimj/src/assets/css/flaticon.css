@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon.ttf?8851de62dedd0fd39de047341e0ce1c5") format("truetype"),
+url("../fonts/flaticon.woff?8851de62dedd0fd39de047341e0ce1c5") format("woff"),
+url("../fonts/flaticon.woff2?8851de62dedd0fd39de047341e0ce1c5") format("woff2"),
+url("../fonts/flaticon.eot?8851de62dedd0fd39de047341e0ce1c5#iefix") format("embedded-opentype"),
+url("../fonts/flaticon.svg?8851de62dedd0fd39de047341e0ce1c5#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-phone-call:before {
+    content: "\f101";
+}
+.flaticon-knitting:before {
+    content: "\f102";
+}
+.flaticon-suit:before {
+    content: "\f103";
+}
+.flaticon-measuring:before {
+    content: "\f104";
+}
+.flaticon-botton:before {
+    content: "\f105";
+}
+.flaticon-seam-ripper:before {
+    content: "\f106";
+}
+.flaticon-embroidery:before {
+    content: "\f107";
+}
+.flaticon-thread:before {
+    content: "\f108";
+}
+.flaticon-pin:before {
+    content: "\f109";
+}
+.flaticon-email:before {
+    content: "\f10a";
+}
+.flaticon-clock:before {
+    content: "\f10b";
+}
+.flaticon-magnifying-glass:before {
+    content: "\f10c";
+}
+.flaticon-mystery:before {
+    content: "\f10d";
+}
+.flaticon-investigation:before {
+    content: "\f10e";
+}
+.flaticon-add-circular-outlined-button:before {
+    content: "\f10f";
+}
+.flaticon-up-circular-interface-button:before {
+    content: "\f110";
+}
+.flaticon-close-cross-in-circular-outlined-interface-button:before {
+    content: "\f111";
+}
+.flaticon-right-arrow:before {
+    content: "\f112";
+}
+.flaticon-right-arrow-1:before {
+    content: "\f113";
+}
