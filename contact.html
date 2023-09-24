@@ -188,29 +188,47 @@
 </section>
 
 
-<!-- Kontaktinformationsabschnitt -->
-<section class="contact-info-section pt-0">
-    <div class="auto-container">
-        <div class="contact-info-wrapper">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 icon_box">
-                    <div class="inner-box">
-                        <div class="contact-info-section_text">E-Mail senden</div>
-                        <h4 class="contact-info-section_title"><a href="mailto:zohimjethnobyoyuna@gmx.at">zohimjethnobyoyuna@gmx.at</a></h4>
-                    </div>
+<!-- Kontaktformularabschnitt -->
+<section class="contact-form-section">
+    <div class="auto-container">        
+        <div class="contact-form-section_sec-title-area">
+            <h2 class="sec-title">Kontaktieren Sie uns jederzeit</h2>
+            <div class="contact-form-section_description">Sie können uns jederzeit eine Nachricht senden. Wir freuen uns auf Ihre Anfrage und werden so schnell wie möglich antworten.</div>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-8">
+                <!-- Kontaktformular -->
+                <div class="contact-form">
+                    <!-- Add the data-netlify attribute and specify the form name -->
+                    <form method="post" action="thank-you-page.html" id="contact-form" data-netlify="true" name="contact">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="form_name" placeholder="Ihr Name" required>
+                            </div>                      
+                            <div class="form-group col-md-6">
+                                <input type="email" class="form-control" name="form_email" placeholder="Ihre E-Mail" required>
+                            </div>                        
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="form_phone" placeholder="Telefonnummer" required>
+                            </div>                        
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="form_subject" placeholder="Betreff" required>
+                            </div>                        
+                            <div class="form-group col-md-12">
+                                <textarea name="form_message" class="form-control" placeholder="Nachricht schreiben" required></textarea>
+                            </div>                        
+                            <div class="form-group col-md-12">
+                                <!-- Remove the hidden form_botcheck field for Netlify -->
+                                <button class="btn-style-one dark" type="submit"><span>Nachricht senden</span></button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-                <div class="col-lg-3 col-md-6 icon_box">
-                    <div class="inner-box">
-                        <div class="contact-info-section_text">Anrufen</div>
-                        <h4 class="contact-info-section_title"><a href="tel:+43 660 4578939">+43 660 4578939</a></h4>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-6 icon_box">
-                    <div class="inner-box">
-                        <div class="contact-info-section_text">Jederzeit besuchen</div>
-                        <h4 class="contact-info-section_title">Hermann-Fischerstraße 2
-                            9400 Wolfsberg</h4>
-                    </div>
+            </div>
+            <div class="col-lg-3 offset-lg-1">
+                <div class="contact-author">
+                    <div class="contact-author_thumb"><img src="assets/images/pexels/4.jpg" alt=""></div>
                 </div>
             </div>
         </div>
