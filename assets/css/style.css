@@ -5754,7 +5754,12 @@ ul.service-details-list img {
     width: 100%;
     position: relative;
 }
-
+.zohimjLogo{
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
 
 
 
