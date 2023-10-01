@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 /* Tayler HTML Template  */
 
@@ -1178,6 +1185,8 @@ img {
 
 .main-header .header-upper .contact-info h4 a {
     color: #222;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s;
 }
 
@@ -3643,6 +3652,8 @@ h4.service-block-three_title {
 
 h4.service-block-three_title a {
     color: #454456;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s;
 }
 
@@ -5755,13 +5766,16 @@ ul.service-details-list img {
     position: relative;
 }
 .zohimjLogo{
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     height: 100px;
     width: 100px;
     border-radius: 50%;
 }
-
-
+.parking{
+    height: 30px;
+}
+  
 
 
 
