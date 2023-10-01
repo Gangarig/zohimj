@@ -202,8 +202,7 @@
             <div class="col-lg-8">
                 <!-- Kontaktformular -->
                 <div class="contact-form">
-                    <!-- Add the data-netlify attribute and specify the form name -->
-                    <form method="post" action="thank-you-page.html" id="contact-form" data-netlify="true" name="contact">
+                    <form method="post" id="contact-form" data-netlify="true" name="contact">
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <input type="text" class="form-control" name="form_name" placeholder="Ihr Name" required>
@@ -221,7 +220,6 @@
                                 <textarea name="form_message" class="form-control" placeholder="Nachricht schreiben" required></textarea>
                             </div>                        
                             <div class="form-group col-md-12">
-                                <!-- Remove the hidden form_botcheck field for Netlify -->
                                 <button class="btn-style-one dark" type="submit"><span>Nachricht senden</span></button>
                             </div>
                         </div>
@@ -238,53 +236,6 @@
 </section>
 
 
-<!-- Kontaktformularabschnitt -->
-<section class="contact-form-section">
-    <div class="auto-container">        
-        <div class="contact-form-section_sec-title-area">
-            <h2 class="sec-title">Kontaktieren Sie uns jederzeit</h2>
-            <div class="contact-form-section_description">Sie können uns jederzeit eine Nachricht senden. Wir freuen uns auf Ihre Anfrage und werden so schnell wie möglich antworten.</div>
-        </div>
-        
-        <div class="row">
-            <div class="col-lg-8">
-                <!-- Kontaktformular -->
-                <form method="POST" data-netlify="true" data-netlify-honeypot="form_botcheck" netlify>
-                    <!-- Hidden botcheck field -->
-                    <div class="form-group col-md-12">
-                        <input type="hidden" name="form_botcheck" class="form-control" />
-                    </div>
-
-                    <div class="row">
-                        <div class="form-group col-md-6">
-                            <input type="text" class="form-control" name="form_name" placeholder="Ihr Name" required>
-                        </div>                      
-                        <div class="form-group col-md-6">
-                            <input type="email" class="form-control" name="form_email" placeholder="Ihre E-Mail" required>
-                        </div>                        
-                        <div class="form-group col-md-6">
-                            <input type="text" class="form-control" name="form_phone" placeholder="Telefonnummer" required>
-                        </div>                        
-                        <div class="form-group col-md-6">
-                            <input type="text" class="form-control" name="form_subject" placeholder="Betreff" required>
-                        </div>                        
-                        <div class="form-group col-md-12">
-                            <textarea name="form_message" class="form-control" placeholder="Nachricht schreiben" required></textarea>
-                        </div>                        
-                        <div class="form-group col-md-12">
-                            <button class="btn-style-one dark" type="submit"><span>Nachricht senden</span></button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="col-lg-3 offset-lg-1">
-                <div class="contact-author">
-                    <div class="contact-author_thumb"><img src="assets/images/pexels/4.jpg" alt=""></div>
-                </div>
-            </div>
-        </div>
-   </div>
-</section>
 
 <footer class="main-footer" style="background-image: url(assets/images/pexels/16.jpg);">
     <div class="auto-container">
